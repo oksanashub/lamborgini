@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+header{
+    background-color: rgba(50, 50, 50, 0.7);
+    display: flex;
+    padding: 15px 96px;
+    justify-content: space-between;
+    align-items: center;
+}
+nav{
+    display: flex;
+    gap: 100px;
+}
+a{
+    text-decoration: none;
+    color: rgba(222, 222, 222, 1);
+}
+body{
+    background-color: rgba(39, 39, 39, 1);
+    margin: 0;
+    padding: 0;
+    font-family: "Manrope", sans-serif;
+    }
+main{
+    padding: 0 96px;
+}
+.main-content {
+    display: flex;
+    padding-left: 70px;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+h1 {
+    color: rgba(222, 222, 222, 1);
+    font-size: 46px;
+
+    margin: 0;
+}
+.description {
+    font-size: 18px;
+    color: rgba(149, 149, 149, 1);
+    margin: 0;
+}
+.learn-more {
+    padding: 15px 125px;
+    background-color: rgba(253, 204, 30, 1);
+    color: #000;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.image-content {
+    background-image: url(2cb002205aea0203122908b1fa1aa90d.png);
+    height: 664px;
+    background-size: contain;
+    width: 1000px;
+    background-repeat: no-repeat;
+}
+.text-content{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 52px;
+    align-items: flex-start;
+}
+.cards-info{
+    display:flex;
+    justify-content: center;
+    gap: 40px;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+
+}
+.card-left,.cards-right{
+    display:flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.cards-right{
+    margin-top: 100px;
+}
+.card1{
+    background-image:url(unsplash_mxPiMiz7KCo.png) ;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    width: 612px;
+    height: 888px;
+    color: rgba(255, 255, 255, 1);
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+    padding-left: 30px;
+
+}
+.card2{
+    background-image:url(unsplash_pqzRfBhd9r0.png) ;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    width: 612px;
+    height: 888px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+    padding-left: 30px;
+
+}
+.card3{
+    background-image:url(unsplash_g-pKprPg5yw.png) ;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    width: 612px;
+    height: 888px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+    padding-left: 30px;
+
+}
+.card4{
+    background-image:url(unsplash_x-HpilsdKEk.png) ;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    width: 612px;
+    height: 888px;
+    color: rgba(255, 255, 255, 1);
+}
+.info {
+    padding: 20px;
+}
+
+.info h2 {
+    text-align: center;
+    color: white;
+}
+
+.cards-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: rgba(50, 50, 50, 0.7);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    width: 400px;
+    height: 408px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.card-1{
+    background-image: url(unsplash_fd6K_OFlnRA.png);
+}
+.card-3{
+    background-image: url(unsplash_pPTw_RTkvXQ.png);
+}
+.card-5{
+    background-image: url(unsplash_3CoSLrSrvhY.png);
+}
+.card-2,.card-6{
+
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    color: black;
+    background-color: rgba(217, 217, 217, 1);
+}
+.card-4{
+
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(14, 17, 20, 1);
+}
+.exhibition{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.greeting h2{
+    color:rgba(222, 222, 222, 1);
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+.exhibition-img{
+    background-image: url(image\ 4.png);
+    background-size:cover ;
+    width: 844px;
+    height: 562px;
+}
+.exhibition-text{
+
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(3, 3, 3, 1);
+    padding: 73px;
+    width: 306px;
+}
+.contacts{
+    padding: 56px;
+}
+.contacts h2{
+
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    color: rgba(222, 222, 222, 1);
+}
+.contacts p{
+
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    color: rgba(149, 149, 149, 1);
+}
+.email {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.email a{
+    padding: 15px 36px;
+    background-color:  rgba(157, 157, 157, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+.line{
+    background-color: rgba(105, 105, 105, 1);
+    height: 1px;
+}
+.made{
+
+    font-size: 12px;
+    font-weight: 600;
+    text-align: left;
+    color:  rgba(149, 149, 149, 1);
+}
+footer{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 96px;
+}
+.social-icons {
+    display: flex;
+    gap: 20px;  
+    align-items: center;  
+}
+
+span{
+    color: rgba(255, 255, 255, 1);
+}
